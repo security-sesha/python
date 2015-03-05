@@ -9,7 +9,7 @@ import socket
 for port in range(1,1024):
     try:
         s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-        s.connect(('192.168.214.131',port))
+        s.connect(('192.168.214.131',port)) #provide the IP to scan
         s.send('Sesha\n')
         banner = s.recv(1024)
         if banner:
