@@ -1,2 +1,2 @@
 # python
-Few Scripts which I used to learn Python
+Few Scripts which I created while learning Python
